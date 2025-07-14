@@ -63,11 +63,3 @@ management:
     web:
       exposure:
         include: "*"
-
-gateway:
-  ip: 10.204.136.204
-
-token:
-  expiration_time: 86400000
-  secret: thisIsASecretKeyForJwtToken123!
-
