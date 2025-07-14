@@ -2,8 +2,8 @@ server:
   port: 8000
 
 spring:
-  config:
-    name: actuator,eureka,rabbitmq,token
+  application:
+    name: apigateway-service
   cloud:
     gateway:
       default-filters:
