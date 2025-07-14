@@ -1,3 +1,3 @@
 token:
   expiration_time: 86400000
-  secret: {cipher}AQB7YM4O25Ji1sIm54Ghrfh/F52LdkZsNF9wwEFy4f9lvMipfUyAA2ynDt9t5cQ4cBcUqif42xFuz7NNvWAVuqmQwlzgz2yDxE2kWqFB/BLZwOlDKYUyPXaPJJRzXrnI3IkBo4t1KeRO3OogfPCVO1xWJTBUTiE9hJMKdxvRhQ0dz6i7evex4BZT/RpcxnCg9bz8rL3nTDkS/ZsNzcHUrhs4qj+HbDBoN7bviOZT/lqEws810+F+WhtTElRE3xzA5GAfhUh7yhFaQpii82Ad+PNOpH5/6yHdzOpDh/kGh9erPhTFDd5MWYYYWPixrghkFSMWm6v7nk7mldV5JQnOByk7j0Cf5nwH5/0U0t5LUg+8mGADmJmbvm5KdZ+85u0M+H4lV539tOA+eYmu2UA82dpz
+  secret: hello
