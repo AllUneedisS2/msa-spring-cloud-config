@@ -2,8 +2,8 @@ server:
   port: 8000
 
 spring:
-  application:
-    name: apigateway-service
+  # application:
+  #   name: apigateway-service
   cloud:
     gateway:
       default-filters:
