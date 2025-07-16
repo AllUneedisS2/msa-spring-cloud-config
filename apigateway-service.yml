@@ -17,7 +17,8 @@ spring:
           uri: lb://USER-SERVICE
           predicates:
             - Path=/user-service/users,/user-service/login
-            - Method=GET
+            - Method:
+              - GET
           filters:
             - RemoveRequestHeader=Cookie
             - RewritePath=/user-service/(?<segment>.*), /$\{segment}
