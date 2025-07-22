@@ -2,4 +2,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: env, refresh, health, beans, httpexchanges, busrefresh, info, metrics, prometheus
+        include: env, refresh, health, httptrace, beans, httpexchanges, busrefresh, info, metrics, prometheus
