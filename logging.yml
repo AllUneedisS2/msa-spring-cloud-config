@@ -1,6 +1,9 @@
 logging:
   level:
     root: INFO
+    org.springframework.cloud.gateway: DEBUG
+    org.springframework.web.reactive: DEBUG
+    reactor.netty.http.client: DEBUG
     org.springframework.security: DEBUG  # Spring Security 전체 디버깅
     org.springframework.web: DEBUG       # DispatcherServlet 등 요청 처리
   pattern:
