@@ -22,12 +22,6 @@ spring:
 greeting:
   message: Welcome to the Simple E-commerce.
 
-logging:
-  level:
-    com.example.userservice.client: DEBUG
-  pattern:
-    correlation: '%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]'
-
 management:
   tracing:
     sampling:
