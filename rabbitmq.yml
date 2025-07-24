@@ -3,7 +3,7 @@ spring:
     host: 127.0.0.1
     port: 5672
     username: guest
-    password: ${RABBITMQ_PASSWORD}
+    password: '{cipher}AQA7yBzncaNXtAAROjIyreoI4WrbQeI/NHDLkImL6JVx4PFbxoTCE2Rv+Mb2Fxit3Jb+SnZNcDf7naNLFWI2mtu/KwmE1/ettrISBDJewJRamyOaCz/wWrw7cLf08GG+yBzVUVnWV5TUfSCsB/mk++UtvCvJEBdpqOVyOb4qlducrfTmKuyYNhtzSdLBz9EvgsXAjzLpn7zDFuRIeia3nEEkQcsyC0OmdTVeM24Nv7H/wv4Ljdw0x25bxjPM44VuHnvgv5/g9v+3rUc9WD8p6Myq4PrW/WOQPSnuzVVM6V/v0s/g0GjJ1nZBg70GTRbZwToG+VgpffXBLKqlnFjKEQB+ofIG86qlNUc+TTW26781j61Dy6RP7DvRQ9AENj5rG4k='
     listener:
       simple:
         prefetch: 5
