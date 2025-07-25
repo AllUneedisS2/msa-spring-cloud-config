@@ -1,6 +1,8 @@
 management:
   metrics:
-    enable:
-      all: true
     tags:
       application: ${spring.application.name}
+    enable:
+      all: true
+  prometheus:
+    enabled: true  # prometheus actuator endpoint 활성화
