@@ -2,3 +2,5 @@ management:
   metrics:
     enable:
       all: true
+    tags:
+      application: ${spring.application.name}
