@@ -5,4 +5,4 @@ management:
         include: env, refresh, health, httptrace, beans, httpexchanges, busrefresh, info, metrics, prometheus
 
 greeting:
-  message: Welcome to the MSA fucking World.
+  message: Welcome to the MSA ㅊㅊ World.
