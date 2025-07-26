@@ -5,4 +5,4 @@ management:
         include: env, refresh, health, httptrace, beans, httpexchanges, busrefresh, info, metrics, prometheus
 
 greeting:
-  message: Welcome to the Simple BM-commerce.
+  message: Welcome to the Simple SY-commerce.
