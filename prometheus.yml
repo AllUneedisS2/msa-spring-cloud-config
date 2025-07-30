@@ -4,5 +4,8 @@ management:
       application: ${spring.application.name}
     enable:
       all: true
+    distribution:
+      percentiles-histogram:
+        all: false
   prometheus:
-    enabled: true  # prometheus actuator endpoint 활성화
+    enabled: true  # prometheus actuator endpoint 활성화  
